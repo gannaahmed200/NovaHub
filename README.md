@@ -11,34 +11,13 @@ An AI model designed to classify medical images of the main organs: **heart**, *
 ---
 
 ## Table of Contents
-1. [Installation](#installation)
-2. [Usage](#usage)
-3. [Dataset](#dataset)
-4. [Development Environment](#development-environment)
-5. [Contributing](#contributing)
-6. [License](#license)
+1. [Usage](#usage)
+2. [Dataset](#dataset)
+3. [Development Environment](#development-environment)
+4. [Contributing](#contributing)
+5. [License](#license)
 
 ---
-
-## Installation
-
-### Prerequisites
-- Python 3.8 or above
-- VS Code installed with Python support
-- Required libraries (TensorFlow, NumPy, Matplotlib, etc.)
-
-### Steps
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/ai-organ-classifier.git
-   cd ai-organ-classifier
-   ```
-
-2. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
 ---
 
 ## Usage
@@ -62,11 +41,7 @@ An AI model designed to classify medical images of the main organs: **heart**, *
 ---
 
 ## Dataset
-The model is trained on a curated dataset of medical images. Each image is labeled with the organ it represents.  
-To use your own dataset:
-1. Organize your dataset into subfolders by organ class (e.g., `data/heart`, `data/brain`).
-2. Update the `config.json` file with the dataset path.
-
+The model is trained on a curated dataset of medical images. Each image is labeled with the organ it represents. 
 ---
 
 ## Development Environment
