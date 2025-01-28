@@ -1,69 +1,120 @@
-# 3D Anatomy Organs Puzzle Game: Heart 
 
-## Project Overview
+# Image Viewer with Advanced Image Processing Techniques
 
-This project involves the development of a 3D puzzle game where users must assemble the human heart by flipping and rotating parts in 3D space. The goal is to reconstruct the heart by manipulating its 3D pieces, similar to the Tetris game mechanics. The game is developed using Unity and Blender.
+## Overview
+This project is an image viewer application that provides various advanced image processing functionalities. The user can view, modify, and analyze grayscale images using a variety of tools, such as zooming, filtering, noise addition, and denoising techniques. The application supports two viewports where the user can apply changes sequentially to the image and compare the results. The viewer also includes the ability to display image histograms for further analysis.
 
 ## Features
+- **Input and Output Viewports:** 
+  - View an input image in the first viewport.
+  - Apply changes on the input image and see the result in the second viewport.
+  - Sequential processing: Apply multiple changes to an image and view the results in different output viewports.
+  
+- **Image Manipulation:**
+  - **Zooming:** Zoom in/out with different interpolation methods, including:
+    - Nearest-Neighbor Interpolation
+    - Linear Interpolation
+    - Bilinear Interpolation
+    - Cubic Interpolation
+  
+- **Image Analysis:**
+  - **Histogram Display:** Double-click (or another action) to display the histogram of any image at any point.
+  - **SNR (Signal-to-Noise Ratio):** Measure the SNR or CNR (Contrast-to-Noise Ratio) by selecting two regions of interest (ROIs) and calculating the average intensities inside them.
+  
+- **Noise Addition and Denoising:**
+  - Add three types of noise to the image: 
+    - Gaussian Noise
+    - Salt and Pepper Noise
+    - Poisson Noise
+  - Apply three different denoising techniques to clean the noisy image:
+    - Gaussian Blur
+    - Median Filter
+    - Bilateral Filter
 
-- **3D Puzzle Gameplay**: Users will randomly receive heart parts in 3D space and will need to manually assemble them by rotating and flipping the pieces.
-- **Heart Organ**: The game focuses on the human heart, which is divided into 5 to 8 parts for the puzzle.
-- **Interactive Controls**: Rotate and flip each part via keyboard shortcuts to place them in their correct positions.
-- **3D Rendering**: Heart parts are rendered as surface models, not volume models, using Blender for 3D visualization.
+- **Filtering:**
+  - Apply low-pass and high-pass filters to enhance or suppress certain frequencies in the image.
 
-## Tools and Technologies
+- **Contrast and Brightness Adjustment:**
+  - Change the brightness and contrast of the image.
+  - Apply three types of contrast adjustment methods:
+    - Histogram Equalization
+    - CLAHE (Contrast Limited Adaptive Histogram Equalization)
+    - Custom Contrast Adjustment
 
-- **Unity**: Used for game development and to handle the 3D scene, interaction, and game logic.
-- **Blender**: Used for 3D visualization and creating the heart model. Ensure that the heart is a surface model before importing it into Unity.
-- **C#**: Scripting language used within Unity for game logic and interaction.
+## Getting Started
+Follow these steps to get the project running on your local machine.
 
-## Steps to Set Up
+### Prerequisites
+Make sure you have the following installed:
+- Python 3.x
+- Required Python libraries:
+  - `numpy`
+  - `opencv-python`
+  - `matplotlib`
+  - `PIL`
+  - `scikit-image`
+  - `scipy`
 
-### 1. Clone the Repository
-
+You can install the required libraries using:
 ```bash
-git clone https://github.com/yourusername/3d-anatomy-organs-puzzle.git
-cd 3d-anatomy-organs-puzzle
+pip install -r requirements.txt
 ```
 
-### 2. Install Unity
+### Running the Application
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/image-viewer.git
+   cd image-viewer
+   ```
 
-Make sure you have Unity installed. You can download it from [Unity's official website](https://unity.com/).
+2. Run the application:
+   ```bash
+   python image_viewer.py
+   ```
 
-### 3. Import the Project into Unity
+### Using the Application
+1. **Load an Image:** Open a grayscale image in the input viewport.
+2. **Apply Changes:**
+   - Zoom in/out and adjust the image resolution using different interpolation methods.
+   - Add noise and apply denoising techniques.
+   - Change the brightness and contrast of the image.
+   - Apply low-pass or high-pass filters.
+   - Apply different contrast adjustment techniques to improve CNR.
+3. **View Results:** See the changes in the output viewports and their histograms.
 
-- Open Unity Hub and select "Add" to import the project folder.
-- Once imported, open the project in Unity.
+### Histogram Analysis
+- Double-click on any image in the viewport to see the histogram of that image.
+  
+### Measuring SNR/CNR
+- Select two regions of interest (ROIs) in the image to calculate the SNR or CNR by measuring the average pixel intensities within them.
 
-### 4. Import 3D Heart Model
+## Example Workflow
+1. Load a grayscale image into the input viewport.
+2. Zoom in on the image using linear interpolation.
+3. Apply Gaussian noise and view the noisy image in output1.
+4. Denoise the image using a median filter and view the result in output2.
+5. Adjust the contrast using histogram equalization and observe the improvements in the output.
+6. Measure the SNR/CNR by selecting two ROIs and comparing their average intensities.
 
-- Use Blender to create and export 3D surface models of the heart.
-- Import the heart model into Unity by dragging the `.obj` or `.fbx` files into the Unity Editor.
+## Project Structure
+```
+image-viewer/
+│
+├── image_viewer.py          # Main application code
+├── requirements.txt         # List of Python dependencies
+├── images/                  # Folder containing sample images for testing
+│
+└── README.md                # Project documentation
+```
 
-### 5. Set Up Scene and Game Logic
-
-- Create the game scene in Unity, setting up the camera, lighting, and game objects.
-- Implement the game logic in C# for rotating, flipping, and snapping parts together.
-
-### 6. Run the Game
-
-Once the setup is complete, press "Play" in Unity to test and run the game.
-
-## How to Contribute
+## Contributing
+We welcome contributions to this project! If you'd like to contribute, please follow these steps:
 
 1. Fork the repository.
-2. Create a new branch for your feature or bugfix.
-3. Implement your changes and test thoroughly.
-4. Submit a pull request with a clear description of your changes.
+2. Create a new branch for your changes.
+3. Commit your changes.
+4. Push your changes to your forked repository.
+5. Open a pull request with a description of the changes you've made.
 
 ## License
-
-This project is licensed under the MIT License.
-
-## Acknowledgments
-
-- Special thanks to the creators of Blender and Unity for providing excellent tools for 3D modeling and game development.
-
----
-
-Feel free to adjust the details if needed!
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
