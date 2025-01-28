@@ -8,6 +8,17 @@ This project uses a pretrained YOLO (You Only Look Once) AI model to track playe
 - **Player Selection:** Users can select a specific player for detailed tracking.
 - **Movement Heatmap:** Visualize the movement of the selected player with a heatmap over time.
 
+## Screenshots from Our Projects
+
+### Screenshot 1:
+![Image](https://github.com/user-attachments/assets/b6f61b88-9d9c-4451-859b-88398bb63b15)
+
+### Screenshot 2:
+![Image](https://github.com/user-attachments/assets/21ae4e34-461f-43ad-b5da-7eb8bf11a1dd)
+
+### Screenshot 3:
+![Image](https://github.com/user-attachments/assets/32364bf7-cd3c-42e8-9552-a77410225323)
+
 ## Requirements
 
 - Python 3.x
