@@ -4,16 +4,16 @@
 
 ## Screenshots
 
-### Input Image View
+### histogram
 ![Input Image](https://github.com/user-attachments/assets/9cdec7b4-32e1-4e2e-a3ed-880d641dcc07)
 
-### Zoomed-in Image (Output 1)
+### CNR calculation
 ![Zoomed-in Image](https://github.com/user-attachments/assets/ab21cac8-348c-42e3-a4fd-7e8832d745ce)
 
-### Noisy Image with Gaussian Noise
+### SNR calculation
 ![Noisy Image](https://github.com/user-attachments/assets/e451c442-0c5f-4a9f-870e-b10f6adf1af7)
 
-### Denoised Image (Median Filter)
+### Brightness and contrast
 ![Denoised Image](https://github.com/user-attachments/assets/3f4432a8-d583-405a-979e-347b5b9bec9a)
 ## Overview
 This project is an image viewer application that provides various advanced image processing functionalities. The user can view, modify, and analyze grayscale images using a variety of tools, such as zooming, filtering, noise addition, and denoising techniques. The application supports two viewports where the user can apply changes sequentially to the image and compare the results. The viewer also includes the ability to display image histograms for further analysis.
