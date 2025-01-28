@@ -10,6 +10,7 @@ This repository contains a custom-built DICOM viewer application, developed as p
 
    - Open and view any DICOM file containing 2D, Multi-2D (M2D), or 3D images.
 
+
 2. **Viewing Options**
 
    - **2D Images:** Display single 2D images.
@@ -22,9 +23,20 @@ This repository contains a custom-built DICOM viewer application, developed as p
    - Search for specific DICOM tags and display their values.
    - Explore values of key DICOM elements (Patient, Study, Modality, Physician, Image) through dedicated UI buttons.
 
+
 4. **Anonymization**
 
    - Anonymize critical information in the DICOM file by replacing sensitive data with random values prefixed by user-provided text.
+
+### Images to Explain
+
+Below are some images that illustrate key aspects of the project:
+
+![Image 1](https://github.com/user-attachments/assets/bb4789a3-f4a5-4887-b56e-3785c8834e0b)
+![Image 2](https://github.com/user-attachments/assets/88c481a4-0e7b-4de1-bd1e-59963d807096)
+![Image 3](https://github.com/user-attachments/assets/2a8b8aa0-d0a7-4ac8-b7aa-09a9a0f692aa)
+![Image 4](https://github.com/user-attachments/assets/88aedf81-36d2-4791-b4e2-ddf8032ba6e9)
+![Image 5](https://github.com/user-attachments/assets/37dce5a1-21bd-4b14-9a0b-b17f45aed551)
 
 ## Technology Stack
 
