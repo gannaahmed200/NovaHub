@@ -8,11 +8,7 @@ An AI model designed to classify medical images of the main organs: **heart**, *
 - **High Accuracy**: Trained on a robust dataset to ensure precision.
 - **User-Friendly**: Easy-to-use interface for predictions.
 
----
 
-# Project Title
-
-Brief description of your project.
 
 ## Images
 
