@@ -1,8 +1,14 @@
-# 3D Anatomy Organs Puzzle Game: Heart 
+# 3D Anatomy Organs Puzzle Game: Heart Edition
 
 ## Project Overview
 
 This project involves the development of a 3D puzzle game where users must assemble the human heart by flipping and rotating parts in 3D space. The goal is to reconstruct the heart by manipulating its 3D pieces, similar to the Tetris game mechanics. The game is developed using Unity and Blender.
+
+![Heart Puzzle Preview 1](https://github.com/user-attachments/assets/28015bc6-3f74-490a-bfe6-a5c53b0bd70b)
+![Heart Puzzle Preview 2](https://github.com/user-attachments/assets/6fce7ad3-69ca-4e41-9552-6f9f8a594564)
+![Heart Puzzle Preview 3](https://github.com/user-attachments/assets/3e743171-b6dc-4146-b9c8-428d6937c717)
+![Heart Puzzle Preview 4](https://github.com/user-attachments/assets/ceb69cbc-5b21-4792-8b42-eca2bcdef9c3)
+![Heart Puzzle Preview 5](https://github.com/user-attachments/assets/46aa35cb-7db3-4da8-bc1b-d0556dc6226f)
 
 ## Features
 
@@ -63,7 +69,3 @@ This project is licensed under the MIT License.
 ## Acknowledgments
 
 - Special thanks to the creators of Blender and Unity for providing excellent tools for 3D modeling and game development.
-
----
-
-Feel free to adjust the details if needed!
