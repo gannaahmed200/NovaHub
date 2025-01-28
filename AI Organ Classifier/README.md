@@ -10,6 +10,34 @@ An AI model designed to classify medical images of the main organs: **heart**, *
 
 ---
 
+# Project Title
+
+Brief description of your project.
+
+## Images
+
+### Image 1
+![Description of Image 1](https://github.com/user-attachments/assets/6b22a5d3-71eb-4cfa-a8a2-f5431ee1a35c)
+
+### Image 2
+![Description of Image 2](https://github.com/user-attachments/assets/2ccc88b2-fa6f-4721-959e-2934681bbe06)
+
+### Image 3
+![Description of Image 3](https://github.com/user-attachments/assets/464cfe4a-930f-4266-aece-49df77d39d3f)
+
+### Image 4
+![Description of Image 4](https://github.com/user-attachments/assets/e81c517e-6a98-48b3-9b8a-e6156b1569bd)
+
+### Image 5
+![Description of Image 5](https://github.com/user-attachments/assets/39981851-196b-48a5-8d43-5b03f6f04be8)
+
+### Image 6
+![Description of Image 6](https://github.com/user-attachments/assets/0e15e9cc-217a-4df2-9016-45efb3ea2d2b)
+
+### Image 7
+![Description of Image 7](https://github.com/user-attachments/assets/8e1188ca-d085-453a-8c24-5d9814fbc522)
+
+
 ## Table of Contents
 1. [Usage](#usage)
 2. [Dataset](#dataset)
