@@ -20,6 +20,24 @@ This project is a custom DICOM viewer application designed to facilitate the vis
 ### 4. 3D Point Mapping
 - Select a point in the 3D volume, and the application displays its location in all three 2D planar viewers.
 
+### Image 1
+![Image 1 Description](https://github.com/user-attachments/assets/7ef1b1d8-2e0b-43d0-8648-704ead16e5d4)
+
+### Image 2
+![Image 2 Description](https://github.com/user-attachments/assets/11552572-b83f-4774-bcd1-43db4a97766c)
+
+### Image 3
+![Image 3 Description](https://github.com/user-attachments/assets/0ed6e34a-8c2d-4943-b92b-de1dce168e44)
+
+### Image 4
+![Image 4 Description](https://github.com/user-attachments/assets/06dcbcdd-b6c1-4c7b-a449-ed693ba1657d)
+
+### Image 5
+![Image 5 Description](https://github.com/user-attachments/assets/a989c009-ad7e-4dcc-b218-3fc52e3de476)
+
+### Image 6
+![Image 6 Description](https://github.com/user-attachments/assets/faa129b4-531a-4204-a411-07c809af57c4)
+
 ## Requirements
 
 ### Software Dependencies
